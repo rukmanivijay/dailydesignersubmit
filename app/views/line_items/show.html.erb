@@ -1,0 +1,22 @@
+<!-- <p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Product:</strong>
+  <%= @line_item.product_id %>
+</p>
+
+<p>
+  <strong>Cart:</strong>
+  <%= @line_item.cart_id %>
+</p> -->
+<center>
+<p><h1> Pick of the Day </h1></p>
+<% @products.each do |product| %>
+		<% if product.id ==  @line_item.product_id %>
+			<%= image_tag(product.image_url) %>
+		<% end %>
+<% end %>
+</center>
+<!-- 
+<%= link_to 'Edit', edit_line_item_path(@line_item) %> |
+<%= link_to 'Back', line_items_path %> -->

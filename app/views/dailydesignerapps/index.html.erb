@@ -1,0 +1,41 @@
+<!-- This is the first page
+    This has to be in the form of a complete design page -->
+
+<body>
+  <br><br><br><br>
+  <center>
+  <h1>Daily Designer</h1>
+
+
+<!-- <table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Sex</th>
+      <th>State</th>
+      <th>City</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @dailydesignerapps.each do |dailydesignerapp| %>
+      <tr>
+        <td><%= dailydesignerapp.name %></td>
+        <td><%= dailydesignerapp.sex %></td>
+        <td><%= dailydesignerapp.state %></td>
+        <td><%= dailydesignerapp.city %></td>
+        <td><%= link_to 'Show', dailydesignerapp %></td>
+        <td><%= link_to 'Edit', edit_dailydesignerapp_path(dailydesignerapp) %></td>
+        <td><%= link_to 'Destroy', dailydesignerapp, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br> -->
+
+<%= link_to 'Lets Start Designing!', new_dailydesignerapp_path %>
+</center>
+</body>
+
