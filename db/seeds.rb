@@ -12,4 +12,5 @@ Product.create(:title => 'Dress 1',
 Product.create(:title => 'Dress 2',
   :image_url => '/images/dress2.jpg')
 # . . .
-
+Product.create(:title => 'Dress 3',
+  :image_url => '/images/shorts.jpg')
